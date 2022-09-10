@@ -1,0 +1,303 @@
+
+:root {
+    --dark-one: #202225;
+    --dark-two: #2f3136;
+    --dark-three: #36393f;
+    --dark-four: #42464d;
+    --light-one: #a7a8ab;
+    --light-two: #f5f5f5;
+}
+
+html {
+    visibility: hidden;
+}
+
+html, body {
+    background-color: var(--dark-three) !important;
+    color: var(--light-one) !important;
+}
+
+.fixed-top {
+    background-color: var(--dark-one) !important;
+}
+
+#nav-drawer, .list-group-item {
+    background-color: var(--dark-two) !important;
+    color: var(--light-one) !important;
+    font-weight: bold;
+}
+
+.list-group-item {
+    border-radius: 10px !important;
+}
+
+.list-group-item:hover {
+    color: var(--light-two) !important;
+}
+
+.column-itemname, .generaltable {
+    color: var(--light-one) !important;
+}
+.list-group-item-action {
+    border: none !important;
+    outline: none !important;
+}
+
+button.bg-gray {
+    background-color: transparent !important;
+}
+
+
+.icon, a {
+    color: var(--light-one) !important;
+}
+
+.row, .card {
+    background-color: var(--dark-three) !important;
+}
+
+.card {
+    border: none;
+    color: var(--light-two) !important;
+}
+
+.bg-dark {
+    background-color: var(--dark-three) !important;
+}
+
+#region-main {
+    background-color: inherit;
+}
+
+.format-glendon .list-group-item.active, .btn-light {
+    background-color: var(--dark-four) !important;
+}
+
+.btn {
+    border: none !important;
+}
+
+.login-info {
+    color: var(--light-two) !important;
+}
+
+#page-footer a {
+    color: var(--light-two) !important;
+}
+
+#format-glendon-content-right .tab-content>.tab-pane {
+    border: none;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    background-color: var(--dark-two);
+}
+
+.format-glendon-topic-text {
+    background-color: var(--dark-two);
+}
+
+.usertour {
+    display: none;
+}
+
+.instance-name {
+    color: var(--light-two) !important;
+}
+
+.dashboard-card {
+    background-color: var(--dark-four) !important;
+    border-radius: 5px;
+}
+
+a.coursename > span {
+    color: var(--light-two) !important;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+header > div > div > div.card-body {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+header > div > div > div.card-body > div > div.ml-auto {
+    margin-left: 0 !important;
+}
+
+.btn-secondary, input.btn-primary {
+    color: var(--light-two);
+    background-color: var(--dark-three) !important;
+    border: none !important;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+input.btn-primary:hover {
+    background-color: var(--dark-four) !important;
+    color: var(--light-two) !important;
+}
+
+.btn-secondary:hover {
+    color: var(--light-two) !important;
+}
+
+.avatar {
+    margin-left: 12px;
+}
+
+div[data-region='paging-control-container'] {
+    margin-top: 15px !important;
+}
+
+div[data-region='event-list-item'] > .d-flex {
+    margin: 5px 10px;
+}
+
+div[data-region='event-list-item']  {
+    margin-top: 10px !important;
+}
+
+hr {
+    margin: 0 !important;
+    border: none !important;
+}
+
+#page-navbar {
+    margin-right: 15px;
+}
+.block.block_library .content {
+    background: inherit !important;
+}
+
+input {
+    background-color: var(--dark-four);
+    outline: none;
+    border: none;
+    color: whitesmoke;
+}
+
+div[data-region='event-item'] {
+    background-color: var(--dark-two) !important;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+input[type='submit'] {
+    margin-left: 5px;
+}
+
+#format-glendon-heading-one.section-zero-header {
+    display: none;
+}
+
+
+#glendon-format-course-page-content > .card-deck > .card > .card-body {
+    background-color: var(--dark-four);
+    border-radius: 5px;
+}
+
+#page-header > div > .card, .content {
+    background-color: var(--dark-four) !important;
+    border-radius: 5px;
+
+}
+
+section[data-block='myoverview'] > div > div.content {
+    background-color: inherit !important;
+
+}
+
+.content {
+    padding: 15px !important;
+    color: var(--light-two) !important;
+}
+
+h5 > a > .instancename, span.instance-name, h5 > a, span.instancename {
+    color: var(--light-two) !important;
+}
+
+
+h3 > span > a {
+    color: var(--light-two) !important;
+    font-weight: bold;
+}
+
+.aalink.focus,a.focus.autolink,.aalink:focus,a.autolink:focus,#page-footer a:not([class]).focus,#page-footer a:not([class]):focus,.arrow_link.focus,.arrow_link:focus,a:not([class]).focus,a:not([class]):focus,.activityinstance>a.focus,.activityinstance>a:focus {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+#page-navbar {
+    padding-bottom: 15px;
+}
+
+.generaltable thead:first-child th {
+    border-top: 1px solid var(--dark-two) !important;
+    border-bottom: 1px solid var(--dark-two) !important;
+    background-color: var(--dark-two) !important;
+}
+
+
+ tbody > tr {
+    outline: 1px solid var(--dark-two) !important;
+}
+
+.generaltable tbody > tr:hover {
+    color: var(--light-one) !important;
+}
+
+.generaltable tbody:nth-child(2n + 1) {
+    background-color: var(--dark-two) !important;
+}
+
+ul.list-group > li {
+    margin-bottom: 5px;
+}
+
+.format-glendon > ul> li.list-group-item {
+    background-color: var(--dark-three) !important;
+}
+
+.format-glendon > ul> li.list-group-item.active {
+    background-color: var(--dark-two) !important;
+}
+
+.list-group-item {
+    border: none !important;
+}
+
+tr.lastrow:hover {
+    color: var(--light-one) !important;
+}
+
+.course-content ul.gridicons li.currentselected {
+    background-color: var(--dark-four) !important;
+}
+.course-content ul.gridicons li.currentselected .icon_content {
+    color: var(--light-one) !important;
+
+}
+
+#gridshadebox_content {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.course-content ul.gridicons li .image_holder {
+    border: none !important;
+}
+
+input[id='search'], input[id='search']:active, input[id='search']:hover {
+    background-color: grey !important;
+    outline: none !important;
+    color: whitesmoke !important;
+    border-color: transparent !important;
+}
+
+.nav-tabs .nav-link.active {
+    border: none !important;
+}

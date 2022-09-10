@@ -1,0 +1,45 @@
+{
+  "name": "YorkU Theme for eClass",
+  "description": "Override eClass CSS to inject a custom dark mode theme & remove annoying stuff.",
+  "author": "Isaac Kogan",
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "homepage_url": "https://isaackogan.com/",
+  "manifest_version": 3,
+  "version": "4.0",
+  "content_scripts": [
+    {
+      "css": [
+        "css/main.css"
+      ],
+      "js": [
+        "javascript/libraries/jquery-2.1.1.min.js",
+        "javascript/modules/utilities.js",
+        "javascript/modules/theme.js",
+        "javascript/index.js"
+      ],
+      "matches": [
+        "*://*.eclass.yorku.ca/*"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "/css/*"
+      ],
+      "matches": [
+        "*://*.eclass.yorku.ca/*"
+      ]
+    }
+  ],
+  "incognito": "split",
+  "externally_connectable": {
+    "matches": [
+      "*://*.eclass.yorku.ca/*"
+    ]
+  }
+}
